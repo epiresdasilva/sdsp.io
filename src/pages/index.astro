@@ -11,7 +11,7 @@ import Speakers from '../components/Speakers.astro'
 import Grade from '../components/Grade.astro'
 ---
 
-<DefaultLayout title="ServerlessDays SP 2023">
+<DefaultLayout title="ServerlessDays SP 2024">
   <Hero />
   <!-- <ContentMedia imgSrc="/wcag-compliant.webp" reverseImg={true}>
     <h2>WCAG 2.1 AA Compliant</h2>
@@ -22,21 +22,27 @@ import Grade from '../components/Grade.astro'
     </p>
   </ContentMedia> -->
 
-  <ContentMedia imgSrc="/ryan-jones-photo.jpeg">
-    <h2>Keynote internacional</h2>
+  <!-- <ContentMedia imgSrc="/ryan-jones-photo.jpeg">
+    <h2>Keynote TBD</h2>
     <p class="text-2xl">
       Ryan Jones é o fundador da Serverless Guru, uma empresa de consultoria que ajuda a liderar a revolução da computação Serverless. Ryan é reconhecido pela sua contribuição com a comunidade de tecnologia e por esse motivo faz parte do grupo AWS Community Builders no tema Serverless.
     </p>
-    <p class="text-2xl">      
+    <p class="text-2xl">
       Ryan vai contar sua experiência e aprendizado à frente de sua empresa que é dedicada ao mundo Serverless.
     </p>
   </ContentMedia>
-  <ContentMedia imgSrc="/gran-estanplaza.jpg" reverseImg={true}>
+  -->
+  <ContentMedia imgSrc="/cubo-itau.jpeg" reverseImg={true}>
     <h2>Local</h2>
     <p class="text-2xl">
-      O local escolhido para esse grande evento é o <b>Gran Estanplaza Berrini</b>, um hotel 5 estrelas com localização privilegiada, à 250 metros de uma estação de metrô, é uma região acostumada a receber grandes eventos.
-      
-      Com uma estrutura para até 300 pessoas, o Salão Nobre da Música Brasileira, será o espaço dedicado ao primeiro ServerlessDays da América Latina.
+      O local escolhido para esse grande evento é o <b>O Cubo Itaú</b>, localizado na Alameda Vicente Pinzon, 54, é um dos principais hubs de inovação e tecnologia de São Paulo.
+      O espaço é ideal para a realização de eventos, oferecendo infraestrutura moderna e um ambiente colaborativo.
+
+      <br> A localização do Cubo Itaú proporciona grande facilidade de mobilidade.
+
+      Transporte Público: Diversas linhas de ônibus passam pela Alameda Vicente Pinzon, garantindo um acesso rápido e conveniente.
+      A estação de trem Vila Olímpia, que faz parte da linha 9-Esmeralda, está a poucos minutos de distância, facilitando ainda mais o acesso ao local.
+
     </p>
     <p class="text-2xl refeicoes">
       Dois coffee breaks e <b>ALMOÇO</b> inclusos!
@@ -49,6 +55,7 @@ import Grade from '../components/Grade.astro'
     </p>
   </ContentMedia>
   <Grade/>
+  <!--
   <Speakers/>
   <section class="my-32">
     <div class="container">
@@ -79,6 +86,8 @@ import Grade from '../components/Grade.astro'
     </div>
   </section>
   <Sponsors/>
+
+  <!--
   <section class="mt-32 mb-32">
     <div class="container">
       <h2 class="mb-16 text-6xl">Números</h2>
@@ -90,6 +99,7 @@ import Grade from '../components/Grade.astro'
       </div>
     </div>
   </section>
+  -->
   <Team/>
   <FAQ />
 </DefaultLayout>
