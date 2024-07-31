@@ -5,5 +5,8 @@ import tailwind from '@astrojs/tailwind'
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [compress(), mdx(), tailwind()],
+	server: {
+		host: true
+	},
+	integrations: [compress(), mdx(), tailwind()],
 })
