@@ -8,6 +8,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Instale as dependências
+RUN npm install esbuild --save-dev --legacy-peer-deps
 RUN npm install --legacy-peer-deps
 
 # Copie o código da aplicação para o diretório de trabalho
