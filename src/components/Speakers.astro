@@ -16,11 +16,16 @@ const images = import.meta.glob('../assets/img/*', { eager: true })
             <div class="center text-center" key={speaker.name}>
               <div class="foto">
                 <a href={speaker.linkedin} target="_blank">
-                  <img src={images[speaker.image].default} alt={`Foto de ${speaker.name}`} />
+                  <img src={images[speaker.image].default.src} alt={`Foto de ${speaker.name}`} />
                 </a>
               </div>
               <p class="text-2xl font-semibold">{speaker.name}</p>
-              <p class="text-1xl">{speaker.title}</p>
+              <p class="text-1xl">{speaker.title} @ {speaker.company}</p>
+              <div class="company">
+                <a href={speaker.companyUrl} target="_blank">
+                  <img src={images[speaker.companyLogo].default.src} alt={`Logo da ${speaker.company}`} />
+                </a>
+              </div>
             </div>
           ))}
         </div>
@@ -47,6 +52,20 @@ const images = import.meta.glob('../assets/img/*', { eager: true })
 
   .foto img {
     height: 15em;
+    border-radius: 50%;
+
+  }
+
+  .company {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3em;
+    margin-top: 10px;
+  }
+
+  .company img {
+    height: 3em;
   }
 
   .center {
