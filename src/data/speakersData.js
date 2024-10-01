@@ -52,6 +52,33 @@ export const speakers = [
     linkedin: "https://www.linkedin.com/in/peixotowill/",
     companyLogo: "../assets/img/logo-serverlessguru.jpeg",
     companyUrl: "https://www.serverlessguru.com/"
+  },
+  {
+    name: "Henrique Ferro",
+    title: "Director of Infra Engineering & Native Brazil",
+    company: "Oracle",
+    image: "../assets/img/foto-henrique.jpeg",
+    linkedin: "https://www.linkedin.com/in/henriqueferro/",
+    companyLogo: "../assets/img/logo-oracle.jpeg",
+    companyUrl: "https://www.oracle.com/"
+  },
+  {
+    name: "Gabriel Oswaldo",
+    title: "Backend Software Engineer",
+    company: "CI&T",
+    image: "../assets/img/foto-oswaldo.jpeg",
+    linkedin: "https://www.linkedin.com/in/gabrieloswaldo/",
+    companyLogo: "../assets/img/logo-ciet.jpeg",
+    companyUrl: "https://ciandt.com/br/"
+  },
+  {
+    name: "Caio Pardal",
+    title: "Software Engineer",
+    company: "GoCo.io, Inc.",
+    image: "../assets/img/foto-caio.jpeg",
+    linkedin: "https://www.linkedin.com/in/henriqueferro/",
+    companyLogo: "../assets/img/logo-goco.jpeg",
+    companyUrl: "https://www.goco.io/"
   }
 ];
 export const cfpAvailable = true;
