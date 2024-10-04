@@ -12,9 +12,7 @@ const { title, date, location, schedule } = isEventDefined ? eventDetails : {}
     {
       isEventDefined ? (
         <>
-          <b>{date}</b>
-          <b>{location}</b>
-          <table>
+          <table class="schedule-table">
             <tr>
               <th>Horário</th>
               <th>Título</th>
@@ -73,4 +71,21 @@ const { title, date, location, schedule } = isEventDefined ? eventDetails : {}
   td {
     border-bottom: 1px solid #ddd;
   }
+
+  .schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .schedule-table th,
+  .schedule-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+
+  .schedule-table th:first-child,
+  .schedule-table td:first-child {
+    width: 100px; /* Adjust this value as needed */
+  }
+
 </style>
