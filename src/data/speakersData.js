@@ -79,6 +79,15 @@ export const speakers = [
     linkedin: "https://www.linkedin.com/in/henriqueferro/",
     companyLogo: "../assets/img/logo-goco.jpeg",
     companyUrl: "https://www.goco.io/"
+  },
+  {
+    name: "Marcos Carvalho",
+    title: "Security Architect",
+    company: "Azion",
+    image: "../assets/img/foto-marcos.jpeg",
+    linkedin: "https://www.linkedin.com/in/marcos-rodrigues-de-carvalho-8ab2381b7/",
+    companyLogo: "../assets/img/logo-azion.jpeg",
+    companyUrl: "https://azion.com/"
   }
 ];
 export const cfpAvailable = true;
