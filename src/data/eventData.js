@@ -15,7 +15,7 @@ export const eventDetails = {
     { time: '13h35', title: 'Saga Pattern com Step Functions', speaker: 'Willian Peixoto @ Serverless Guru' },
     { time: '14h10', title: 'Descomplicando 12 factor apps com serverless em AWS', speaker: 'Gabriel Oswaldo @ CI&T + Caio Pardal @ GoCo.io, Inc.' },
     { time: '14h45', title: 'Coffee Break + Networking', speaker: '-' },
-    { time: '15:45', title: 'AIOps com serverless', speaker: 'Henrique Ferro @ Oracle' },
+    { time: '15:45', title: 'Como utilizar Serverless com GenAI para AIOps na prática', speaker: 'Henrique Ferro @ Oracle' },
     { time: '16h20', title: 'Melhorando Resiliência e Cortando Custos na Ingestão de Dados', speaker: 'Leo Igor Nunes de Oliveira @ ConectCar' },
     { time: '16h55', title: 'Serverless-first na Smiles: aprimorando a experiência do cliente', speaker: 'Luiz Correia @ Smiles' },
     { time: '17h30', title: 'Encerramento', speaker: 'Evandro Pires - AWS Serverless Hero' }
