@@ -1,5 +1,5 @@
 ---
-import { Icon } from 'astro-icon'
+import { Icon } from 'astro-icon/components'
 
 const { src = '/anteater-hero-img.png' } = Astro.props
 ---
@@ -10,17 +10,18 @@ const { src = '/anteater-hero-img.png' } = Astro.props
       <div class="flex flex-col items-center gap-8 md:items-start">
         <h1 class="text-center text-6xl md:text-left lg:text-6xl">
           <slot>Muito conteúdo de serverless<span class="text-gradient">
-              , dia 19 de outubro, em São Paulo</span
+              , dia 8 de novembro, em São Paulo</span
             ></slot
           >
         </h1>
         <div class="flex flex-col gap-3 min-[500px]:flex-row">
-          <a class="button has-icon" href="https://www.sympla.com.br/serverlessdays-sao-paulo-2024__2593884">
-            <Icon pack="ion" name="star-outline" />
-            Garanta seu ingresso
+          <a class="button has-icon" href="https://forms.gle/xb4YQesnKpvL8Qmi6">
+            Lista de espera
           </a>
-          <a class="button has-icon color-secondary" href="https://www.papercall.io/serverlessdays-saopaulo-2024">
-            <Icon pack="ion" name="bookmark-outline" />
+          <!-- <a class="button has-icon" href="https://www.sympla.com.br/serverlessdays-sao-paulo-2024__2593884">
+            Garanta seu ingresso
+          </a> -->
+          <a class="button has-icon color-secondary" href="https://www.papercall.io/serverlessdays-saopaulo-2025">
             Envie uma palestra (CFP)
           </a>
         </div>

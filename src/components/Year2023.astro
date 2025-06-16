@@ -1,26 +1,22 @@
 ---
+import ContentMedia from '../components/ContentMedia.astro'
 ---
 
-<section class="mb-32 mt-32">
-  <div class="container flex flex-col items-center md:flex-row">
-    <div class="text-section md:w-1/2 md:pr-8">
-      <h2 class="mb-16 text-6xl">Eventos Anteriores</h2>
-      <p class="text-2xl">O primeiro ServerlessDays da América Latina aconteceu em São Paulo, em 2023.</p>
-      <p class="mt-4 text-2xl">
-        A marca de eventos exclusivos de serverless que conquistou o mundo com seus eventos ao redor do mundo, desde
-        2017, teve uma edição na maior cidade do Brasil para ajudar na democratização do conhecimento e do uso de
-        serverless no país.
-      </p>
-      <p class="mt-4 text-2xl">Foram cerca de 180 pessoas reunidas no sábado do dia 21 de outubro de 2023.</p>
-    </div>
-    <div class="image-section mt-8 md:mt-0 md:w-1/2">
-      <img
-        src="/foto-serverlessDays2023.jpeg"
-        alt="Foto do evento ServerlessDays São Paulo 2023"
-        class="h-auto w-full"
-      />
-    </div>
+<section class="mt-32 mb-32">
+  <div class="container">
+    <h2 class="mb-16 text-6xl">Eventos Anteriores</h2>
   </div>
+  <ContentMedia imgSrc="/foto-serverlessDays2023.jpeg" reverseImg={true}>
+    <p class="text-2xl">O primeiro ServerlessDays da América Latina aconteceu em São Paulo, em 2023.
+    <br/>A marca de eventos exclusivos de serverless que conquistou o mundo com seus eventos ao redor do mundo, desde
+      2017, teve uma edição na maior cidade do Brasil para ajudar na democratização do conhecimento e do uso de
+      serverless no país.
+    <br/>Foram cerca de 180 pessoas reunidas no sábado do dia 21 de outubro de 2023.</p>
+  </ContentMedia>
+  <ContentMedia imgSrc="/foto-slsdayssp2024.jpg">
+    <p class="text-2xl">A segunda edição ocorreu no dia 19 de outubro de 2024, no Cubo Itaú.</p>
+    <p class="text-2xl">Cerca de 200 pessoas e diversos patrocinadores de peso participaram de um dia inteiro de conteúdo e muito networking em um dos grandes centros de inovação na maior cidade do Brasil.</p>
+  </ContentMedia>
 
   <style lang="scss">
     .container {

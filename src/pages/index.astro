@@ -30,7 +30,29 @@ import Year2023 from '../components/Year2023.astro'
       Junte-se a 200 pessoas nesse grande evento de nível mundial que acontece em São Paulo, no dia 19 de outubro. Um evento com espírito de comunidade, com conteúdos selecionados de grandes nomes de serverless e grandes empresas que aplicam essa abordagem em casos reais.
     </p>
   </ContentMedia>
-  <ContentMedia imgSrc="/cubo-itau.jpeg" reverseImg={true}>
+  <section class="mt-32 mb-32">
+    <div class="container">
+      <h2 class="mb-16 text-6xl">AWS Serverless Heroes no evento!</h2>
+    </div>
+  </section>
+  <ContentMedia imgSrc="/foto-hazel.jpeg" reverseImg={true}>
+    <h2>Hazel Sáenz (Guatemala)</h2>
+    <p class="text-2xl">Ela atua na criação e no design de software há mais de duas décadas e, nos últimos anos, com foco para aplicações baseadas em nuvem. Seu foco principal é modernizar aplicações legadas para ambientes em nuvem, utilizando a AWS como provedora, com ênfase no design de arquiteturas de alta carga usando serverless.</p>
+    <p class="text-2xl">Hazel gosta de compartilhar seu conhecimento com a comunidade por meio de palestras técnicas em eventos locais e internacionais, participando de AWS Summits, AWS Community Days e meetups, além de escrever artigos técnicos em inglês e espanhol.</p>
+  </ContentMedia>
+  <ContentMedia imgSrc="/evandro-hero.jpg">
+    <h2>Evandro Pires (Brasil)</h2>
+    <p class="text-2xl">
+      Evandro Pires é multiempreendedor em diferentes segmentos. Atuou como CTO de uma das maiores empresas de tecnologia do Brasil, onde liderou áreas como Cloud Native, Dados, IA, SRE e DevOps, impactando mais de 1 milhão de usuários todos os meses. Reconhecido como o primeiro AWS Serverless Hero da América Latina, é também embaixador da Serverless Guru na América Latina. É criador do podcast Sem Servidor e organizador dos eventos Sem Servidor Conf e ServerlessDays São Paulo, onde é o líder da organização.
+    </p>
+  </ContentMedia>
+  <ContentMedia imgSrc="/foto-luisa.jpg" reverseImg={true}>
+    <h2>Apresentação por Luisa Saro</h2>
+    <p class="text-2xl">
+      Luisa Saro é atriz formada pela Escola de Atores Wolf Maya, com experiência em séries exibidas pela TV Cultura, HBO e Disney+. Apaixonada por games, atua também como apresentadora no cenário de eSports, tendo comandado transmissões de jogos como Honor of Kings, CS:GO e, desde 2020, é rosto oficial da Liga NFA, o maior campeonato independente de Free Fire do mundo.
+    </p>
+  </ContentMedia>
+  <ContentMedia imgSrc="/cubo-itau.jpeg">
     <h2>Local</h2>
     <p class="text-2xl">
       O local escolhido para esse grande evento é o <b>Cubo Itaú</b>, localizado na Alameda Vicente Pinzon, 54, é um
@@ -39,16 +61,8 @@ import Year2023 from '../components/Year2023.astro'
     </p>
     <p class="refeicoes text-2xl"><b>Almoço</b> no local <b>incluso</b>!</p>
   </ContentMedia>
-  <ContentMedia imgSrc="/evandro-hero.jpg">
-    <h2>AWS Serverless Hero no evento</h2>
-    <p class="text-2xl">
-      Evandro Pires é o primeiro Serverless Hero reconhecido pela AWS na América Latina. Ele é o líder da organização do
-      Serverless Days São Paulo e estará no evento para conduzir todo o cerimonial sendo o facilitador dos conteúdos e
-      de networking.
-    </p>
-  </ContentMedia>
-  <Speakers />
-  <Grade />
+  <!-- <Speakers /> -->
+  <!-- <Grade /> -->
   <Sponsors />
   <!--
   <Temas />
