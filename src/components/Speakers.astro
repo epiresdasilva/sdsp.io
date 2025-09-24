@@ -21,6 +21,7 @@ const images = import.meta.glob('../assets/img/*', { eager: true })
               </div>
               <p class="text-2xl font-semibold">{speaker.name}</p>
               <p class="text-1xl">{speaker.title} @ {speaker.company}</p>
+              <p class="text-1xl font-semibold">{speaker.talkTitle}</p>
               <div class="company">
                 <a href={speaker.companyUrl} target="_blank">
                   <img src={images[speaker.companyLogo].default.src} alt={`Logo da ${speaker.company}`} />
