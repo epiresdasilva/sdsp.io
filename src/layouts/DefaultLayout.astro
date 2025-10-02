@@ -31,6 +31,65 @@ const {
       image={image}
       author={author}
     />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "ServerlessDays São Paulo 2025",
+        "startDate": "2025-11-08T09:00-03:00",
+        "endDate": "2025-11-08T18:00-03:00",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "location": {
+          "@type": "Place",
+          "name": "Cubo Itaú",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Alameda Vicente Pinzon, 54",
+            "addressLocality": "Vila Olímpia, São Paulo",
+            "addressRegion": "SP",
+            "postalCode": "04547-130",
+            "addressCountry": "BR"
+          }
+        },
+        "image": [
+          "https://sdsp.io/social-preview-image.png"
+        ],
+        "description": "O maior evento de serverless do Brasil! Um dia inteiro de conteúdo, cases reais e networking sobre Serverless e GenAI, com especialistas de empresas como AWS, Itaú, Conta Simples e sls.guru.",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://sdsp.io",
+          "price": "109.90",
+          "priceCurrency": "BRL",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2025-06-01T00:00-03:00"
+        },
+        "sponsor": [
+          {
+            "@type": "Organization",
+            "name": "AWS"
+          },
+          {
+            "@type": "Organization",
+            "name": "sls.guru"
+          },
+          {
+            "@type": "Organization",
+            "name": "Teltec Data"
+          },
+          {
+            "@type": "Organization",
+            "name": "tnkr"
+          }
+        ],
+        "organizer": {
+          "@type": "Organization",
+          "name": "ServerlessDays São Paulo",
+          "url": "https://sdsp.io"
+        }
+      }
+    </script>
   </head>
   <body>
     <Header />
