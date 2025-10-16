@@ -30,6 +30,16 @@ export const speakers = [
     talkTitle: "De fintech em crescimento a plataforma escalável: como a Conta Simples constrói seu core em arquitetura serverless"
   },
   {
+    name: "Mauro Cesar Correa Vieira",
+    title: "Staff Software Engineer",
+    company: "Conta Simples",
+    image: "../assets/img/foto-mauro.jpeg",
+    linkedin: "https://www.linkedin.com/in/maurocvieira/",
+    companyLogo: "../assets/img/logo-contasimples.jpeg",
+    companyUrl: "https://contasimples.com/",
+    talkTitle: "De fintech em crescimento a plataforma escalável: como a Conta Simples constrói seu core em arquitetura serverless"
+  },
+  {
     name: "Ricardo Marques",
     title: "Senior AppMod and Serverless Specialist",
     company: "AWS",
@@ -38,6 +48,56 @@ export const speakers = [
     companyLogo: "../assets/img/logo-aws.jpeg",
     companyUrl: "https://aws.amazon.com/",
     talkTitle: "Potencializando IAs Agênticas com Servidores MCP Serverless"
+  },
+  {
+    name: "Felipe KiKo",
+    title: "AWS Cloud Architect",
+    company: "GFT Technologies",
+    image: "../assets/img/foto-kiko.jpeg",
+    linkedin: "https://www.linkedin.com/in/felipekiko/",
+    companyLogo: "../assets/img/logo-gft.jpeg",
+    companyUrl: "https://www.gft.com/br/pt/",
+    talkTitle: "Microserviços serverless: diferentes designs, mesmas dores"
+  },
+  {
+    name: "Luiz Machado",
+    title: "Head de tecnologia",
+    company: "Cilia Tecnologia",
+    image: "../assets/img/foto-luiz-machado.jpeg",
+    linkedin: "https://www.linkedin.com/in/luizmachadoaws/",
+    companyLogo: "../assets/img/logo-cilia-mini.jpeg",
+    companyUrl: "https://cilia.com.br/",
+    talkTitle: "Serverless e liderança: entregando valor rápido sem perder o controle"
+  },
+  {
+    name: "Bruno Vilardi",
+    title: "Business Development Specialist",
+    company: "Dati",
+    image: "../assets/img/foto-bruno.jpeg",
+    linkedin: "https://www.linkedin.com/in/bruno-vilardi-bueno-8b054a187/",
+    companyLogo: "../assets/img/logo-dati-mini.jpeg",
+    companyUrl: "https://dati.com.br/",
+    talkTitle: "Não é o serverless que é caro: é a arquitetura"
+  },
+  {
+    name: "Frankllin Nunes",
+    title: "Head of Cloud Solutions and Architecture",
+    company: "Teltec",
+    image: "../assets/img/foto-frankllin.jpeg",
+    linkedin: "https://www.linkedin.com/in/frankllin-nunes/",
+    companyLogo: "../assets/img/logo-teltec-mini.jpeg",
+    companyUrl: "https://teltecsolutions.com.br/",
+    talkTitle: "Zero Trust para Serverless: Segurança em Ambientes Efêmeros"
+  },
+  {
+    name: "Marcelo Andrade",
+    title: "Staff Engineer",
+    company: "sls.guru",
+    image: "../assets/img/foto-marcelo.jpeg",
+    linkedin: "https://www.linkedin.com/in/meandrade/",
+    companyLogo: "../assets/img/logo-serverlessguru.jpeg",
+    companyUrl: "https://sls.guru",
+    talkTitle: "Integrações com APIs terceiras e serviços AWS - Um jeito simples usando Appsync (JS Resolvers)"
   }
 ];
 export const cfpAvailable = true;
