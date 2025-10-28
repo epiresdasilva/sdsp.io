@@ -1,13 +1,13 @@
 export const speakers = [
   {
-    name: "Hazel Saenz",
-    title: "AWS Serverless Hero, Cloud Software Architect",
-    company: "Caylent",
-    image: "../assets/img/foto-hazel.jpeg",
-    linkedin: "https://www.linkedin.com/in/hazelsaenz/",
-    companyLogo: "../assets/img/logo-caylent.jpeg",
-    companyUrl: "https://caylent.com",
-    talkTitle: "From Chaos to Clarity: Choosing the Right Stack for GenAI on AWS"
+    name: "Leonardo Schenkel",
+    title: "Founder",
+    company: "Devesch",
+    image: "../assets/img/foto-leonardo.jpeg",
+    linkedin: "https://www.linkedin.com/in/leoschenkel/",
+    companyLogo: "../assets/img/logo-devesch.jpeg",
+    companyUrl: "https://devesch.com.br/",
+    talkTitle: "StratusRex: Serverless para Startups"
   },
   {
     name: "Ivan Rodolpho",
